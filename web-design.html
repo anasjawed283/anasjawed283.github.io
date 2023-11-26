@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>WebDesign - Anas Jawed Portfolio</title>
+    <meta
+      name="description"
+      content="A complete set of my skills and profile"
+    />
+    <meta property="og:title" content="WebDesign - Anas Jawed Portfolio" />
+    <meta
+      property="og:description"
+      content="A complete set of my skills and profile"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/loggo.png"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+       body::-webkit-scrollbar {
+         width: 0.5em;
+         z-index: 100;
+         background-color:transparent;
+       }
+
+
+      body::-webkit-scrollbar-thumb {
+         background-color:white;
+         box-shadow:0 -100vh 0 100vh #5128f5;//magic
+       }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./web-design.css" rel="stylesheet" />
+
+      <div class="web-design-container">
+        <section class="web-design-hero">
+          <div class="web-design-menu">
+            <div id="mobile-menu" class="web-design-mobile-navigation">
+              <a href="index.html">
+                <img
+                  alt="pastedImage"
+                  src="public/loggo.png"
+                  class="home-logo"
+                />
+              </a>
+              <div class="web-design-links">
+                <span class="Link">Explore</span>
+                <span class="Link">Resume</span>
+                <span class="Link">Connect</span>
+              </div>
+              <div id="close-mobile-menu" class="web-design-close-mobile-menu">
+                <svg
+                  viewBox="0 0 804.5714285714286 1024"
+                  class="web-design-icon"
+                >
+                  <path
+                    d="M741.714 755.429c0 14.286-5.714 28.571-16 38.857l-77.714 77.714c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-168-168-168 168c-10.286 10.286-24.571 16-38.857 16s-28.571-5.714-38.857-16l-77.714-77.714c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l168-168-168-168c-10.286-10.286-16-24.571-16-38.857s5.714-28.571 16-38.857l77.714-77.714c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l168 168 168-168c10.286-10.286 24.571-16 38.857-16s28.571 5.714 38.857 16l77.714 77.714c10.286 10.286 16 24.571 16 38.857s-5.714 28.571-16 38.857l-168 168 168 168c10.286 10.286 16 24.571 16 38.857z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="web-design-desktop-navigation">
+              <nav class="web-design-centered">
+                <div class="web-design-left">
+                  <a href="index.html" class="web-design-navlink">
+                    <img
+                      alt="pastedImage"
+                      src="public/loggo-removebg-preview-200h.png"
+                      class="web-design-logo1"
+                    />
+                  </a>
+                  <div class="web-design-links1">
+                    <a href="#myskills" class="web-design-link Link">Explore</a>
+                    <a href="#resumescroll" class="web-design-link01 Link">
+                      Resume
+                    </a>
+                    <a href="#socialscroll" class="web-design-link02 Link">
+                      Connect
+                    </a>
+                  </div>
+                </div>
+                <div class="web-design-right">
+                  <a
+                    href="mailto:anasjawed283@gmail.com?subject=Suggestions from the web"
+                    class="web-design-link03"
+                  >
+                    <div class="web-design-get-started">
+                      <span class="web-design-text03">Suggestion</span>
+                    </div>
+                  </a>
+                  <div id="open-mobile-menu" class="web-design-burger-menu">
+                    <img
+                      alt="pastedImage"
+                      src="public/pastedimage-yxbd.svg"
+                      class="web-design-mobile-menu-button"
+                    />
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div>
+              <div class="web-design-container2">
+                <script>
+                  /*
+                  Mobile menu - Code Embed
+                  */
+
+                  // Mobile menu
+                  const mobileMenu = document.querySelector('#mobile-menu')
+
+                  // Buttons
+                  const closeButton = document.querySelector('#close-mobile-menu')
+                  const openButton = document.querySelector('#open-mobile-menu')
+
+                  // On openButton click, set the mobileMenu position left to -100vw
+                  openButton.addEventListener('click', function() {
+                      mobileMenu.style.transform = 'translateX(0%)'
+                  })
+
+                  // On closeButton click, set the mobileMenu position to 0vw
+                  closeButton.addEventListener('click', function() {
+                      mobileMenu.style.transform = 'translateX(100%)'
+                  })
+                </script>
+              </div>
+            </div>
+          </div>
+          <header class="web-design-header">
+            <h1 class="web-design-text04">
+              <span class="web-design-text05">Web Development</span>
+              <br />
+              <span>Skills and Projects</span>
+              <br />
+            </h1>
+          </header>
+        </section>
+        <div class="web-design-features">
+          <div class="web-design-container3">
+            <div
+              class="feature-card1-feature-card feature-card1-root-class-name14"
+            >
+              <h2 class="feature-card1-text"><span>HTML</span></h2>
+              <img
+                alt="image"
+                src="public/skill/hhtml.png"
+                class="feature-card1-image"
+              />
+            </div>
+            <div
+              class="feature-card1-feature-card feature-card1-root-class-name15"
+            >
+              <h2 class="feature-card1-text"><span>CSS</span></h2>
+              <img
+                alt="image"
+                src="public/skill/cssp.png"
+                class="feature-card1-image"
+              />
+            </div>
+            <div
+              class="feature-card1-feature-card feature-card1-root-class-name24"
+            >
+              <h2 class="feature-card1-text"><span>JS</span></h2>
+              <img
+                alt="image"
+                src="public/skill/javascript.png"
+                class="feature-card1-image"
+              />
+            </div>
+            <div
+              class="feature-card1-feature-card feature-card1-root-class-name25"
+            >
+              <h2 class="feature-card1-text"><span>React</span></h2>
+              <img
+                alt="image"
+                src="public/skill/react.png"
+                class="feature-card1-image"
+              />
+            </div>
+            <div
+              class="feature-card1-feature-card feature-card1-root-class-name26"
+            >
+              <h2 class="feature-card1-text"><span>Figma</span></h2>
+              <img
+                alt="image"
+                src="public/skill/figma.png"
+                class="feature-card1-image"
+              />
+            </div>
+            <div
+              class="feature-card1-feature-card feature-card1-root-class-name27"
+            >
+              <h2 class="feature-card1-text"><span>Wordpress</span></h2>
+              <img
+                alt="image"
+                src="public/skill/wp.png"
+                class="feature-card1-image"
+              />
+            </div>
+            <div
+              class="feature-card1-feature-card feature-card1-root-class-name28"
+            >
+              <h2 class="feature-card1-text"><span>Canava</span></h2>
+              <img
+                alt="image"
+                src="public/skill/canava.png"
+                class="feature-card1-image"
+              />
+            </div>
+            <div
+              class="feature-card1-feature-card feature-card1-root-class-name29"
+            >
+              <h2 class="feature-card1-text"><span>Photoshop</span></h2>
+              <img
+                alt="image"
+                src="public/skill/photoshop.png"
+                class="feature-card1-image"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="web-design-banner">
+          <div class="web-design-container4">
+            <h1 class="web-design-text09">Jivan Health pvt.ltd</h1>
+            <span class="web-design-text10">
+              <span>
+                Created the Frontend Design of Jivan-Health Marketing Website, A
+                Health-Tech Startup. Currently working to develop better Designs
+                for next complete update. Checkout the website at
+              </span>
+              <a
+                href="https://jivanhealth.in/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="web-design-link04"
+              >
+                JivanHealth
+              </a>
+            </span>
+          </div>
+          <img
+            alt="image"
+            src="public/skill/JIvan.png"
+            class="web-design-image"
+          />
+        </div>
+        <div class="web-design-banner1">
+          <div class="web-design-container5">
+            <h1 class="web-design-text12">
+              <span>Robotics Club VIT Chennai</span>
+              <br />
+            </h1>
+            <span class="web-design-text15">
+              <span>
+                I have successfully made a website for ROBOTICS CLUB , VIT
+                Chennai along with fellow mates for the online presence of the
+                club. Checkout the
+              </span>
+              <a
+                href="https://robotics-club-official-vitc.github.io/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="web-design-link05"
+              >
+                RoboticsClub
+              </a>
+              <span>website</span>
+            </span>
+          </div>
+          <img
+            alt="image"
+            src="public/skill/rcsa.jpg"
+            class="web-design-image1"
+          />
+        </div>
+        <div class="web-design-banner2">
+          <div class="web-design-container6">
+            <h1 class="web-design-text18">
+              <span>DevelopersHub.in</span>
+              <br />
+            </h1>
+            <span class="web-design-text21">
+              <span class="web-design-text22">
+                I am working on tech blog website where I post tech related
+                solutions software and hardware tech updates and trending tech
+                posts. Checkout the
+              </span>
+              <a
+                href="https://developershub.in/"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="web-design-link06"
+              >
+                developershub
+              </a>
+              <span class="web-design-text23">website.</span>
+              <br />
+            </span>
+          </div>
+          <img
+            alt="image"
+            src="public/skill/logoss1.png"
+            class="web-design-image2"
+          />
+        </div>
+        <div class="web-design-banner3">
+          <div class="web-design-container7">
+            <h1 class="web-design-text25">
+              <span>Smart India Hackathon</span>
+              <br />
+            </h1>
+            <span class="web-design-text28">
+              <span class="web-design-text29">
+                I played the role of application designing for our team Wool
+                Wise in Smart India Hackathon in 2023 with our app being for a
+                logistic that uses Blockchain. Checkout the
+              </span>
+              <a
+                href="https://www.figma.com/file/bO25YbapGzM1ifCTAd3Kby/Smart-India-Hackathon?type=design&amp;mode=design&amp;t=jIhn7mI42NkdE3Gy-1"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="web-design-link07"
+              >
+                wireframe
+              </a>
+              <br />
+            </span>
+          </div>
+          <img
+            alt="image"
+            src="public/skill/sihAppIcon.png"
+            class="web-design-image3"
+          />
+        </div>
+        <div class="web-design-banner4">
+          <div class="web-design-container8">
+            <h1 class="web-design-text31">
+              <span>CyberX Hackathon</span>
+              <br />
+            </h1>
+            <span class="web-design-text34">
+              <span class="web-design-text35">
+                I played the role of frontend web developer at CYBERX hackathon
+                and along with my team mates we created a social media
+                monitoring tool which reports any contents that violates
+                community guidelines and secured position among top 20
+                finalists.
+              </span>
+              <br />
+            </span>
+          </div>
+          <img
+            alt="image"
+            src="public/img/CYBERX.jpg"
+            class="web-design-image4"
+          />
+        </div>
+        <footer class="web-design-footer">
+          <div class="web-design-top">
+            <div class="web-design-left1">
+              <span class="web-design-text37">Connect</span>
+              <div class="web-design-subscription">
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  class="web-design-textinput input"
+                />
+                <div class="web-design-subscribe">
+                  <span class="web-design-text38">Send Email</span>
+                </div>
+              </div>
+              <span class="web-design-text39">
+                Let's team up and make something new
+              </span>
+              <div class="web-design-contact">
+                <span class="web-design-text40">Contact</span>
+                <a
+                  href="mailto:anasjawed283@gmail.com?subject=From the web- Let's Connect"
+                  class="web-design-link08"
+                >
+                  anasjawed283@gmail.com
+                </a>
+              </div>
+            </div>
+            <div class="web-design-right1">
+              <div class="web-design-category">
+                <span class="web-design-text41">Related</span>
+                <div class="web-design-links2">
+                  <a
+                    href="https://robotics-club-official-vitc.github.io/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="web-design-link09"
+                  >
+                    Robotics Club VIT Chennai
+                  </a>
+                  <a
+                    href="https://chennai.vit.ac.in/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="web-design-link10"
+                  >
+                    VIT Chennai
+                  </a>
+                  <a
+                    href="https://www.creaneschool.com/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="web-design-link11"
+                  >
+                    Creane School gaya
+                  </a>
+                  <a
+                    href="https://www.geeksforgeeks.org/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="web-design-link12"
+                  >
+                    Geeks For Geeks
+                  </a>
+                  <a
+                    href="https://www.w3schools.com/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="web-design-link13"
+                  >
+                    W 3 Schools
+                  </a>
+                </div>
+              </div>
+              <div class="web-design-category1">
+                <span class="web-design-text42">Website</span>
+                <div class="web-design-links3">
+                  <a href="achievements.html" class="web-design-navlink1">
+                    Achievements
+                  </a>
+                  <a
+                    href="software-development.html"
+                    class="web-design-navlink2"
+                  >
+                    Software Development
+                  </a>
+                  <a href="a-iand-robotics.html" class="web-design-navlink3">
+                    AI and Robotics
+                  </a>
+                  <a href="cloudand-iot.html" class="web-design-navlink4">
+                    Cloud and IOT
+                  </a>
+                  <a href="web-design.html" class="web-design-navlink5">
+                    Web Design
+                  </a>
+                </div>
+              </div>
+              <div class="web-design-category2">
+                <span class="web-design-text43">Socials</span>
+                <div class="web-design-links4">
+                  <span class="web-design-text44">Twitter</span>
+                  <a
+                    href="https://www.linkedin.com/in/anas-jawed-webdev-enthusiast/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="web-design-link14"
+                  >
+                    Linkedin
+                  </a>
+                  <a
+                    href="https://dribbble.com/anasjawed283/about?utm_source=Clipboard_%22clipboard_about%22&amp;utm_campaign=%22anasjawed283%22&amp;utm_content=%22About%20anasjawed283%22&amp;utm_medium=Social_Share"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="web-design-link15"
+                  >
+                    Dribble
+                  </a>
+                  <a
+                    href="https://www.instagram.com/anas_jawed9484/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="web-design-link16"
+                  >
+                    Instagram
+                  </a>
+                  <a
+                    href="https://github.com/anasjawed283"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="web-design-link17"
+                  >
+                    Github
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="web-design-bottom">
+            <img
+              alt="pastedImage"
+              src="public/logo200h-removebg-preview-200h.png"
+              class="web-design-branding"
+            />
+            <span class="web-design-text45">
+              OpenSource Design-2023 @ Anas Jawed
+            </span>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
